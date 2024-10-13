@@ -87,8 +87,8 @@ jobs:
     #     CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
       
     # db 연결을 테스트
-    - name: Wait for PostgreSQL
-      run: |
-        until pg_isready -h localhost -p ${{ secrets.DB_PORT }} -U ${{ secrets.DB_USER }}; do
-          sleep 1
-        done     
+    # - name: Wait for PostgreSQL
+    #   run: |
+    #     until pg_isready -h localhost -p ${{ secrets.DB_PORT }} -U ${{ secrets.DB_USER }}; do
+    #       sleep 1
+    #     done     
