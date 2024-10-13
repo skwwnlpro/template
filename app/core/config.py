@@ -19,7 +19,12 @@ TORTOISE_ORM = {
     },
     "apps": {
         "models": {
-            "models": ["app.entity", "aerich.models"],
+            "models": [
+                "app.entity.user",
+                "app.entity.event",
+                "app.entity.movie",
+                "aerich.models",
+            ],
             "default_connection": "default",
         },
     },
