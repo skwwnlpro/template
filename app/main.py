@@ -1,5 +1,6 @@
-from fastapi import FastAPI, APIRouter
+from fastapi import APIRouter, FastAPI
 from tortoise.contrib.fastapi import register_tortoise
+
 from core.config import TORTOISE_ORM
 
 app = FastAPI()
