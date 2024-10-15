@@ -25,5 +25,4 @@ template
 ├─ poetry.lock
 ├─ pyproject.toml
 └─ README.md
-
 ```
